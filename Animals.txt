@@ -1,6 +1,8 @@
 Hedgehog
 Elephant
 Badger
+Dog
+Cat
 Sheep
 Wombat
 Capybara
