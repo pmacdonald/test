@@ -52,7 +52,7 @@ Either:
 ### Undo
 In GitHub Desktop, you can "Undo most recent commit"  
 This should only be applied to only your own work. Once the commit has been pushed (ie. you can see it online) you should not undo, but instead "revert".  
-Remember that you can never truly delete any changes in Git, so what this actually does is move the branch "label" to the previous commit. The old commit is still there, you just cant see it because it's no longer part of the current branch.
+Remember that you can never truly delete any changes in Git, so what this actually does is move the branch "label" to the previous commit. The old commit is still there, you just can't see it because it's no longer part of the current branch.
 
 ### Revert
 "Undo" can only be applied to that last commit. You can undo multiple times, but you want to undo the second-last commit, but keep the last?  
