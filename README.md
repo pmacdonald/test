@@ -41,7 +41,7 @@ It is designed to work with the GitHoob website, but it is not the only client y
 The graphical interface only supports the basic Git functionality, but everything else can be achieved via the command line (Git Shell)
 
 ### Checkout
-To "checkout" a branch is to switch to to that that branch on your local machine. All the files in the folder will be replaced to match the state of the repository at that point in time.  
+To "checkout" a branch is to switch to that branch on your local machine. All the files in the folder will be replaced to match the state of the repository at that point in time.  
 You can also checkout to any point in time by using the SHA reference of the commit. This is called a detached-head, as it does not have a branch label associated with it.
 
 ### Head
@@ -52,17 +52,17 @@ Either:
 ### Undo
 In GitHub Desktop, you can "Undo most recent commit"  
 This should only be applied on your own work. Once the commit has been pushed (ie. you can see it online) you should not undo, but instead "revert".  
-Remember that you can never truly delete any changes in Git, so what this actually does is move the branch "label" to the previous commit. The old commit is still there, you just cant see it because it's no longer part of the current branch.
+Remember that you can never truly delete any changes in Git, so what this actually does is move the branch "label" to the previous commit. The old commit is still there, you just can't see it because it's no longer part of the current branch.
 
 ### Revert
-"Undo" can only be applied to that last commit. You can undo multiple times, but you what is you want to undo the second-last commit, but keep the last?  
+"Undo" can only be applied to that last commit. You can undo multiple times, but what if you want to undo the second-last commit, but keep the last?  
 Here you must "revert" a commit. What this actually does is create a new commit that reverses the changes
 
 ### Push
-Push any new commits from the current branch on your local machine to an online repository (a remote).  Either your fork (the remote called "origin") or the or the official shared version (the remote called "grantadesign")
+Push any new commits from the current branch on your local machine to an online repository (a remote).  Either your fork (the remote called "origin") or the official shared version (the remote called "grantadesign")
 
 ### Pull
-As with push, but instead pulling changes from online onto you local machine.
+As with push, but instead pulling changes from online onto your local machine.
 
 ### Merge
 To add the changes contained in one branch into another branch, or from one fork into another fork. This is will usually be where you make changes in your own fork, and then merge them into the official grantadesign version. Merging is often done through a Pull Request
@@ -70,5 +70,5 @@ To add the changes contained in one branch into another branch, or from one fork
 ### Pull Request
 A request for a particular merge to be made. If you have permissions you can manually merge, otherwise you have to request someone else does it. When you create the pull request, anyone who is authorised will be emailed and can review it.  
 * Even if you do have permissions, it is a good idea to create a pull request so a second person can review it before adding to the master.  
-* Try to create a pull request that encompases a set of related changes, if it is two seperate features, creat two pull requests.  
+* Try to create a pull request that encompases a set of related changes, if it is two seperate features, create two pull requests.  
 * If you push more changes to the branch after creating the pull request, they will be automatically included when it is finally merged.  
