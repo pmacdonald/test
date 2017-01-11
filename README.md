@@ -22,7 +22,7 @@ Depending on the context, it can refer to:
 * a snapshot of the repository at that point, like a version number for the whole repository.
 
 ### Notes about committing changes
-* Once changes have been committed, they are safe. It is very hard (or unpossible) to break a repository. Don't worry about making a mistake, it is always possible to go back to a previous state of the files. However uncommitted changes can be lost, so don't be afraid to commit!
+* Once changes have been committed, they are safe. It is very hard (or impossible) to break a repository. Don't worry about making a mistake, it is always possible to go back to a previous state of the files. However uncommitted changes can be lost, so don't be afraid to commit!
 * Try to make each commit contain an single coherent change. If you have made several changes at once commit them separately.
 
 ### Branch
@@ -71,4 +71,4 @@ To add the changes contained in one branch into another branch, or from one fork
 A request for a particular merge to be made. If you have permissions you can manually merge, otherwise you have to request someone else does it. When you create the pull request, anyone who is authorised will be emailed and can review it.  
 * Even if you do have permissions, it is a good idea to create a pull request so a second person can review it before adding to the master.  
 * Try to create a pull request that encompases a set of related changes, if it is two seperate features, creat two pull requests.  
-* If you push more changes to the branch after creating the pull request, they will be automatically included when it is finally merged.  
+* If you push more changes to the branch after creating the pull request, they will be automatically included when it is finally merged.
