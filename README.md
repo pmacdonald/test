@@ -30,7 +30,7 @@ A branch is a parallel version development. It is contained within the repositor
 In reality though, a branch is more like a label pointing to a particular commit. When you make a new commit onto a branch, it just makes a new commit on top of the one the 'label' points to. It then moves the label to point to your new commit.
 
 ### Git
-Git is the open source method for tracking changes in text files. It was ritten by the author of the Linux operating system.
+Git is the open source method for tracking changes in text files. It was written by the author of the Linux operating system.
 
 ### GitHub
 A company that runs the GitHub website, based on the core technology Git. It is designed for collaborative work between many users.
@@ -51,7 +51,7 @@ Either:
 
 ### Undo
 In GitHub Desktop, you can "Undo most recent commit"  
-This should only be applied to only your own work. Once the commit has been pushed (ie. you can see it online) you should not undo, but instead "revert".  
+This should only be applied on your own work. Once the commit has been pushed (ie. you can see it online) you should not undo, but instead "revert".  
 Remember that you can never truly delete any changes in Git, so what this actually does is move the branch "label" to the previous commit. The old commit is still there, you just cant see it because it's no longer part of the current branch.
 
 ### Revert
