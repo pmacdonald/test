@@ -40,6 +40,15 @@ The Windows application that runs on your desktop to manage your repository and 
 It is designed to work with the GitHoob website, but it is not the only client you can use. We use it because it is the simplest to use.
 The graphical interface only supports the basic Git functionality, but everything else can be achieved via the command line (Git Shell)
 
+### Checkout
+To "checkout" a branch is to switch to to that that branch on your local machine. All the files in the folder will be replaced to match the state of the repository at that point in time.
+You can also checkout to any point in time by using the SHA reference of the commit. This is called a detached-head, as it does not have a branch label associated with it.
+
+### Head
+Either:
+* The tip (last commit) of a branch.
+* Or the current checked-out commit.
+
 ### Undo
 In GitHub Desktop, you can "Undo most recent commit"
 This should only be applied to only your own work. Once the commit has been pushed (ie. you can see it online) you should not undo, but instead "revert".
