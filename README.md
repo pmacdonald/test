@@ -22,7 +22,7 @@ Depending on the context, it can refer to:
 * a snapshot of the repository at that point, like a version number for the whole repository.
 
 ### Notes about committing changes
-* Once changes have been committed, they are safe. It is very hard (or unpossible) to break a repository. Don't worry about making a mistake, it is always possible to go back to a previous state of the files. However uncommitted changes can be lost, so don't be afraid to commit!
+* Once changes have been committed, they are safe. It is very hard (or impossible) to break a repository. Don't worry about making a mistake, it is always possible to go back to a previous state of the files. However uncommitted changes can be lost, so don't be afraid to commit!
 * Try to make each commit contain an single coherent change. If you have made several changes at once commit them separately.
 
 ### Branch
