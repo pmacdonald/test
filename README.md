@@ -55,7 +55,7 @@ This should only be applied to only your own work. Once the commit has been push
 Remember that you can never truly delete any changes in Git, so what this actually does is move the branch "label" to the previous commit. The old commit is still there, you just cant see it because it's no longer part of the current branch.
 
 ### Revert
-"Undo" can only be applied to that last commit. You can undo multiple times, but if you want to undo the second-last commit, but keep the last?  
+"Undo" can only be applied to that last commit. You can undo multiple times, but what if you want to undo the second-last commit, but keep the last?  
 Here you must "revert" a commit. What this actually does is create a new commit that reverses the changes
 
 ### Push
