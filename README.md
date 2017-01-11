@@ -1,4 +1,4 @@
-# Git Glossary
+# Git Glossary used in training
 
 ### Repository (repo)
 A folder containing all the files relating to a particular projeect. (The folder also has hidden files that contain all the git details and version history of the files)
