@@ -11,7 +11,7 @@ A clone is a duplicate of an entire repository that lives on your computer inste
 With your clone you can edit the files in your preferred editor and use Git to keep track of your changes without having to be online. It is, however, associated to the remote version so that changes can be synced between the two. You can push your local changes to the remote to keep them synced when you're online.
 
 ### Remote
-Your local clone refers to it's online counterpart as a remote.  
+Your local clone refers to its online counterpart as a remote.  
 By default, you have a remote called "origin" that points to your own fork, and a remote called "grantadesign" that points to the official version shared by everyone.
 
 ### Commit
@@ -22,7 +22,7 @@ Depending on the context, it can refer to:
 * a snapshot of the repository at that point, like a version number for the whole repository.
 
 ### Notes about committing changes
-* Once changes have been committed, they are safe. It is very hard (or unpossible) to break a repository. Don't worry about making a mistake, it is always possible to go back to a previous state of the files. However uncommitted changes can be lost, so don't be afraid to commit!
+* Once changes have been committed, they are safe. It is very hard (or impossible) to break a repository. Don't worry about making a mistake, it is always possible to go back to a previous state of the files. However uncommitted changes can be lost, so don't be afraid to commit!
 * Try to make each commit contain an single coherent change. If you have made several changes at once commit them separately.
 
 ### Branch
