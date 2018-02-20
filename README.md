@@ -1,3 +1,5 @@
+A new line
+
 # Git Glossary used in training
 
 ### Git
